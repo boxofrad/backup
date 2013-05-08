@@ -1,0 +1,12 @@
+  ##
+  # Jaconda [Notifier]
+  #
+  notify_by Jaconda do |jaconda|
+    jaconda.subdomain.should   == '<your subdomain>.jaconda.im'
+    jaconda.room_token.should  == 'room token'
+    jaconda.room_id.should     == 'room id'
+    jaconda.sender_name.should == 'sender name'
+    jaconda.on_success.should  == true
+    jaconda.on_warning.should  == true
+    jaconda.on_failure.should  == true
+  end

@@ -29,6 +29,7 @@ group :production do
   gem 'httparty'
   gem 'prowler'
   gem 'hipchat'
+  gem 'jaconda'
 end
 
 gem 'rspec'

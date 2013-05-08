@@ -78,6 +78,12 @@ module Backup
         :for     => 'Sending notifications to Hipchat'
       },
 
+      'jaconda' => {
+        :require => 'hipchat',
+        :version => '~> 2.0.2',
+        :for     => 'Sending notifications to jaconda.im'
+      },
+
       'parallel' => {
         :require => 'parallel',
         :version => '~> 0.6.0',

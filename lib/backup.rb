@@ -99,6 +99,7 @@ module Backup
     autoload :Campfire,  File.join(NOTIFIER_PATH, 'campfire')
     autoload :Prowl,     File.join(NOTIFIER_PATH, 'prowl')
     autoload :Hipchat,   File.join(NOTIFIER_PATH, 'hipchat')
+    autoload :Jaconda,   File.join(NOTIFIER_PATH, 'jaconda')
     autoload :Pushover,  File.join(NOTIFIER_PATH, 'pushover')
   end
 
